@@ -16,7 +16,9 @@ end
 
 
 task :send_news do
-  new_email = Email.new("i.rishikrishnan@gmail.com")
+  new_email = Email.new("rishikrishnan@hotmail.com")
   new_email.send_my_email
+  new_email2 = Email.new("i.rishikrishnan@gmail.com")
+  new_email2.send_my_email
 
 end
