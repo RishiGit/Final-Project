@@ -1,8 +1,8 @@
 require 'bundler' #require bundler
 Bundler.require #require everything in bundler in gemfile
-require './Lib/mailgun.rb'
-require './Lib/scraper_project.rb'
-require './Lib/twilio2.rb'
+require_relative './Lib/mailgun.rb'
+require_relative './Lib/scraper_project.rb'
+require_relative './Lib/twilio2.rb'
 
 
 get '/' do 
