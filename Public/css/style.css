@@ -1,0 +1,37 @@
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+body {
+  
+  background-image: url("http://m.99wallpaper.com/images/7_1306/Black%20Background%20Wood%20-%202560x1600%20by%20Freeman.jpg");
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: orange;
+  text-align: center;
+}
+
+img {
+
+  margin-left: 560px;
+  margin-right: auto;
+}
+
+a {
+  margin-left: 560px;
+  color: orange;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  
+}
+
+.classy {
+  text-align: center;
+  color: orange;
+}

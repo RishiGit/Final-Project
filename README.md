@@ -1,0 +1,1 @@
+This is my final project. It will be emailing me the daily news and texting me a joke every day.

@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rishi Krishnan Ruby Scraper</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  
+  <h1>Rishi Krishnan - Final Project</h1>
+  <h2>This webpage is the culmination of my work at the Flatiron School as my final project. I have scraped the daily news, and the joke of the day. I used Ruby and Nokogiri to complete this task:</h2>
+  <img src="http://www.icanlocalize.com/site/wp-content/uploads/2010/08/ruby-logo.png">
+  <h2>Here is your joke:</h2>
+  <h3><%= @joke%></h3>
+  <a href="http://jokes.cc.com">Here is the link to the page where I got the joke</a>
+  <form name="twilio_input" action="/" method="post">
+  <div class="classy">
+    <h4> Text yourself the joke</h4>
+    Phone Number: <input type="text" name="user">
+    <button type="submit" value="Submit">Submit</button>
+    </form>
+  </div>
+
+  <br>
+  <br>
+
+  <h2>Here is your news:</h2>
+  <h3><%= @news%></h3>
+  <a href="http://newday.blogs.cnn.com/category/headlines/5-things-to-know-for-your-new-day/">Here is the link to the page where I got the news</a>
+  <form name="email_input" action="/" method="post">
+  <div class="classy">
+    <h4> Email yourself the news</h4>
+    Email: <input type="text" name="email">
+    <button type="submit" value="Submit">Submit</button>
+    </form>
+  </div>
+  
+
+
+  
+</body>
+</html>
