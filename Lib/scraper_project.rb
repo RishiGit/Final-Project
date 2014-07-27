@@ -18,7 +18,7 @@ class Scraper
     click_link = page.at("a[rel='bookmark']")
     page2 = agent.click(click_link)  
     nokogiri_doc2 = Nokogiri::HTML(open("#{page2.uri}"))
-    nokogiri_doc2.css('.cnnBlogContentPost p').text
+    nokogiri_doc2.css('.cnnBlogContentPost p')
   end
 
   def scrape_joke 
