@@ -32,15 +32,15 @@ class Email
     parameters = {
       :to => @to,
       :subject =>  "News for the day",
-      :text => scraped_data.news,
+      :html => scraped_data.news,
       :from => "rishi_krishnan@sandbox7b38f95614714c95a069b463996d9264.mailgun.org"
     }
     @mailgun.messages.send_email(parameters)
   end
 end
 
-# email = Email.new("i.rishikrishnan@gmail.com" , "This is an email from Rishi")
-# email.send_my_email
+email = Email.new("hemlata_krishnan@hotmail.com")
+email.send_my_email
 
-# email = Email.new("i.rishikrishnan@gmail.com" )
+
 
