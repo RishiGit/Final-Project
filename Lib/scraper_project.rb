@@ -24,8 +24,8 @@ class Scraper
   def scrape_joke 
     html_joke = open('http://jokes.cc.com')
     nokogiri_jokes = Nokogiri::HTML(html_joke)
-    nokogiri_jokes.css(".middle #fulltext").children.text.strip
-    daily_joke = nokogiri_jokes.css(".middle #fulltext").children.text.strip 
+    nokogiri_jokes.css(".middle .fulltext").children.text.strip
+    daily_joke = nokogiri_jokes.css(".middle .fulltext").children.text.strip 
   end
 
   def news
